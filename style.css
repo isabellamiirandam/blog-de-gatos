@@ -62,3 +62,15 @@
   font-weight: bold;
   font-size: 2.4rem;
 }
+
+button {
+  background-color: #065e7c;
+  border: 0;
+  border-radius: 999px;
+  padding: 1.2rem;
+}
+
+.first-button {
+  margin-left: 2.2rem;
+  margin-right: 1.2rem;
+}
