@@ -8,14 +8,11 @@
 
 :root {
   font-size: 62.5%;
-  font-family:Mulish', sans-serif ;
-
-
-  
+  font-family: "Mulish", sans-serif;
 }
 
-.container nav{
-  background-color: #065E7C ;
+.container nav {
+  background-color: #065e7c;
 
   color: white;
   font-size: 1.6rem;
@@ -23,11 +20,10 @@
 
   display: flex;
   align-items: center;
-  
-} 
+}
 
 .logo {
-  margin: 1.6rem 2.5rem 1.6rem  2.6rem;
+  margin: 1.6rem 2.5rem 1.6rem 2.6rem;
 }
 
 .input-wrapper label {
@@ -46,18 +42,23 @@
 
   font-size: 1.6rem;
   font-weight: 600;
-  
-  background-color: #387E96;
+
+  background-color: #387e96;
 }
 
 .input-wrapper input::placeholder {
   color: white;
   opacity: 0.56;
-
 }
 
 .cover {
   width: 100%;
+}
 
-  margin-bottom: 3.1rem;
+.title {
+  margin: 3.1rem 6.6rem 0.8rem 2.2rem;
+  width: 34.2rem;
+
+  font-weight: bold;
+  font-size: 2.4rem;
 }
