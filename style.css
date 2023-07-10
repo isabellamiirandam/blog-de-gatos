@@ -35,3 +35,23 @@
   overflow: hidden;
   position: absolute;
 }
+
+.input-wrapper input {
+  width: 100%;
+  padding: 1.2rem 7.3rem 1.2rem 1.4rem;
+
+  border-radius: 8px;
+  border: 0;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+  background-color: #387E96;
+}
+
+.input-wrapper input::placeholder {
+  color: white;
+  opacity: 0.56;
+
+
+}
