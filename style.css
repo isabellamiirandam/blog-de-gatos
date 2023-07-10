@@ -13,8 +13,7 @@
 
 .container nav {
   background-color: #065e7c;
-
-  width: 430px;
+  width: auto;
 
   color: white;
   font-size: 1.6rem;
@@ -36,7 +35,7 @@
 }
 
 .input-wrapper input {
-  width: auto;
+  width: 241px;
   padding: 1.2rem 7.3rem 1.2rem 1.4rem;
 
   border-radius: 8px;
@@ -51,6 +50,10 @@
 .input-wrapper input::placeholder {
   color: white;
   opacity: 0.56;
+}
+
+.cover {
+  width: 100%;
 }
 
 .title,
@@ -113,4 +116,18 @@ button {
   color: #121214;
 
   margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+
+  background-color: #387e96;
+
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  height: 6.4rem;
+
+  padding: 2.6rem 1.6rem 2.6rem 1.6rem;
 }
