@@ -103,4 +103,14 @@ button {
   font-weight: bold;
   font-size: 1.8rem;
   color: #202024;
+
+  width: 16.6rem;
+}
+
+.article p {
+  font-weight: normal;
+  font: size 1.4rem;
+  color: #121214;
+
+  margin-top: 0.5rem;
 }
