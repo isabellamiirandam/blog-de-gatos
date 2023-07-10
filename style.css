@@ -98,3 +98,9 @@ button {
   width: 21.5rem;
   margin-right: 2.6rem;
 }
+
+.caption {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #202024;
+}
