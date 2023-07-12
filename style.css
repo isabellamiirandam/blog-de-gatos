@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-font-smoothin: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -35,8 +35,8 @@
 }
 
 .input-wrapper input {
-  width: 241px;
-  padding: 1.2rem 7.3rem 1.2rem 1.4rem;
+  width: 100%;
+  padding: 1.2rem 1.4rem 1.2rem 1.4rem;
 
   border-radius: 8px;
   border: 0;
@@ -59,7 +59,7 @@
 .title,
 .article-title {
   margin: 3.1rem 6.6rem 0.8rem 2.2rem;
-  width: 34.2rem;
+  width: auto;
 
   font-weight: bold;
   font-size: 2.4rem;
@@ -131,3 +131,14 @@ footer {
 
   padding: 2.6rem 1.6rem 2.6rem 1.6rem;
 }
+
+/*
+@media (min-width: 700px) {
+  .container nav {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+*/
