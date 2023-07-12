@@ -23,7 +23,8 @@
   align-items: center;
 }
 
-.logo {
+.first-logo,
+.second-logo {
   margin: 1.6rem 2.5rem 1.6rem 2.6rem;
 }
 
@@ -133,13 +134,39 @@ footer {
   padding: 2.6rem 1.6rem 2.6rem 1.6rem;
 }
 
-/*
 @media (min-width: 700px) {
   .container nav {
-    text-align: center;
+    width: auto;
+
+    display: flex;
     justify-content: center;
-    align-items: center;
   }
 
+  .first-logo {
+    margin: 1.6rem 2.5rem 1.6rem 11.2rem;
+  }
+
+  .second-logo {
+    margin: 1.6rem 11.2rem 1.6rem 2.5rem;
+  }
+
+  .input-wrapper input {
+    width: 100%;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  }
+
+  .cover {
+    width: 50%;
+    margin: 4.4rem 3.4rem 3.2rem 10.9rem;
+
+    border-radius: 5px;
+  }
+
+  .container-main {
+    display: flex;
+  }
+
+  .post {
+    margin-left: 11.2rem;
+  }
 }
-*/
