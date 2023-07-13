@@ -56,6 +56,7 @@
 
 .cover {
   width: 100%;
+  animation: moving 1s;
 }
 
 .title,
@@ -77,6 +78,13 @@ button {
 .first-button {
   margin-left: 2.2rem;
   margin-right: 1.2rem;
+}
+.first-button:hover {
+  background-color: #041b22;
+}
+
+button:hover {
+  background-color: #041b22;
 }
 
 .text {
@@ -155,18 +163,41 @@ footer {
     padding: 1.2rem 1.6rem 1.2rem 1.4rem;
   }
 
+  main {
+    display: flex;
+  }
   .cover {
     width: 50%;
-    margin: 4.4rem 3.4rem 3.2rem 10.9rem;
+    margin: 4.4rem 3.4rem 3.2rem 9rem;
 
     border-radius: 5px;
   }
 
-  .container-main {
-    display: flex;
+  .title {
+    margin-left: 9rem;
   }
 
-  .post {
-    margin-left: 11.2rem;
+  .text {
+    margin-left: 9rem;
+  }
+
+  .first-button,
+  button {
+    margin-left: 9rem;
+  }
+
+  button {
+    margin-left: 1.2rem;
+    padding: 0.7rem;
+  }
+}
+
+@keyframes moving {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
